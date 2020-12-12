@@ -12,16 +12,16 @@ export default class Header extends Component {
         <div className="Navbar">
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" id="headerlink">Home</a>
             </li>
             <li>
-              <a href="#About">About</a>
+              <a href="#About"  id="headerlink">About</a>
             </li>
             <li>
-              <a href="#Resume">Resume</a>
+              <a href="#Resume"  id="headerlink">Resume</a>
             </li>
             <li>
-              <a href="#Contact">Contact</a>
+              <a href="#Contact"  id="headerlink">Contact</a>
             </li>
           </ul>
         </div>
@@ -32,13 +32,13 @@ export default class Header extends Component {
         <div className="Sociallinks">
           <ul>
             <li>
-              <a href="https://linkedin.com/in/NivedDwivedi">LinkedIn</a>
+              <a href="https://linkedin.com/in/NivedDwivedi" id="headerlink">LinkedIn</a>
             </li>
             <li>
-              <a href="https://github.com/NivedDWivedi">GitHub</a>
+              <a href="https://github.com/NivedDWivedi" id="headerlink">GitHub</a>
             </li>
             <li>
-              <a href="https://twitter.com">Twitter</a>
+              <a href="https://twitter.com" id="headerlink">Twitter</a>
             </li>
           </ul>
         </div>

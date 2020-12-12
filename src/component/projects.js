@@ -9,25 +9,56 @@ export default class Project extends Component {
   render() {
     return (
       <div className="project-div">
+        
         <div className="project">
-          <img src={EcommerceImage} height="450px" width="600px" alt="profile" />
-          <a href="#github" className="project-details">
-            <h3>E-Commerce Project using NodeJs</h3>
-            <hr></hr>
-            <p>Development | Nodejs | MySQL | JWT</p>
-          </a>
+          
+          <div class="container">
+            <img src={EcommerceImage} alt="Avatar" class="image" height="350px" width="500px" />
+            <div class="overlay">
+              <div class="text">
+              <p>Development | NodeJS | MySQL</p>
+                <button><a href="#github" target="_blank"  id="githublinks">GitHub</a></button>
+              </div>
+            </div>
+          </div>
+       </div>
+
+        <div className="project">
+        <div class="container">
+            <img src={ElearningImage} alt="Avatar" class="image" height="350px" width="500px" />
+            <div class="overlay">
+              <div class="text">
+                <p>Development | NodeJS | MySQL</p>
+                <button><a href="#github" target="_blank"  id="githublinks">GitHub</a></button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="project">
-          <img src={ElearningImage} height="450px" width="600px" alt="" />
+        <div class="container">
+            <img src={BreakoutImage} alt="Avatar" class="image" height="350px" width="500px" />
+            <div class="overlay">
+              <div class="text">
+              <p>Development | JavaScript </p>
+              <p>HTML | CSS </p>
+                <button><a href="#github" target="_blank"  id="githublinks">Play Now!</a></button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="project">
-         <img src={BreakoutImage} height="450px" width="600px" alt="" />
-        </div>
-
-        <div className="project">
-         <img src={TodoImage} height="450px" width="600px" alt="" />
+        <div class="container">
+            <img src={TodoImage} alt="Avatar" class="image" height="350px" width="500px" />
+            <div class="overlay">
+              <div class="text">
+              <p>Development | JavaScript </p>
+              <p>HTML | CSS </p>
+                <button><a href="#github" target="_blank" id="githublinks">Make a List</a></button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
