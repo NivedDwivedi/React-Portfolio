@@ -26,7 +26,7 @@ export default class Header extends Component {
           <img src={Profile} alt="avataar"/>
           <h1>Nived Dwivedi</h1>
           <p>Hello, I am Nived Dwivedi. I am pursuing  B.Tech from KIET Group of Institutions, Ghaziabad. Currently working on 
-            ReactJs also worked on JavaScript, NodeJs, ExpressJs etc.
+            ReactJs Rpjectsalso worked on JavaScript, NodeJs, ExpressJs etc.
           </p>
           <hr />
         </div>
