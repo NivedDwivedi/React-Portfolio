@@ -16,7 +16,7 @@ export default class Header extends Component {
           <ul>
             <li><a href="#home" id="headerlink">Home</a></li>
             <li><a href="#project-div"  id="headerlink">Project</a></li>
-            <li><a href="https://drive.google.com/file/d/11rf9HetMcduJNJk5EockOGQyl_dJtL3h/view?usp=sharing"  id="headerlink" targer="_blank">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/15XsFRCKP0Ck31GUDBR6Y-gsL62WdVwgE/view?usp=sharing"  id="headerlink" targer="_blank">Resume</a></li>
             <li><a href="#contact-div"  id="headerlink">Contact</a></li>
           </ul>
         </div>
